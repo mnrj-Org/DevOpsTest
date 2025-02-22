@@ -1,6 +1,6 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-// feature-1 implementation
+// fix bug-1 implementation
 
 var apiService = builder.AddProject<Projects.DevOpsTest_ApiService>("apiservice");
 
